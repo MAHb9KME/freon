@@ -37,7 +37,6 @@ function tpaneScroll()
 	}
 	else 
 	{
-		alert(h_m)
 		if($scrollTop > h_m)
 		{
 			if(!$scrollPane.hasClass('fix'))
