@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton Black'), local('Panton-Black'),
+        url('Panton-Black.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Black.woff') format('woff'),
+        url('Panton-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton ExtraBold'), local('Panton-ExtraBold'),
+        url('Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Panton-ExtraBold.woff') format('woff'),
+        url('Panton-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton Bold'), local('Panton-Bold'),
+        url('Panton-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Bold.woff') format('woff'),
+        url('Panton-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton SemiBold'), local('Panton-SemiBold'),
+        url('Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Panton-SemiBold.woff') format('woff'),
+        url('Panton-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton Regular'), local('Panton-Regular'),
+        url('Panton-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Regular.woff') format('woff'),
+        url('Panton-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton Light'), local('Panton-Light'),
+        url('Panton-Light.eot?#iefix') format('embedded-opentype'),
+        url('Panton-Light.woff') format('woff'),
+        url('Panton-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
