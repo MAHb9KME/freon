@@ -119,7 +119,7 @@ jQuery(function($){
 		}, 500, "linear")
 		
 		return false
-	})
+	}) 
 	
 	
 	// Выдвигаем адаптивное меню
