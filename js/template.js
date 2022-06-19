@@ -19,17 +19,34 @@ function tpaneScroll()
 	var $scrollTop = parseInt(jQuery(window).scrollTop()),
 		$scrollPane = jQuery('body'),
 		h=$('.top-menu').outerHeight(),
+		h_m = 0, 
 		w = parseInt(jQuery(window).width())
 		
-	if($scrollTop > h)
+	if($(window).width() > 960)
 	{
-		if(!$scrollPane.hasClass('fix'))
-			$scrollPane.addClass('fix')
+		if($scrollTop > h)
+		{
+			if(!$scrollPane.hasClass('fix'))
+				$scrollPane.addClass('fix')
+		}
+		else
+		{
+			if($scrollPane.hasClass('fix'))
+				$scrollPane.removeClass('fix')
+		}
 	}
-	else
+	else 
 	{
-		if($scrollPane.hasClass('fix'))
-			$scrollPane.removeClass('fix')
+		if($scrollTop > h_m)
+		{
+			if(!$scrollPane.hasClass('fix'))
+				$scrollPane.addClass('fix')
+		}
+		else
+		{
+			if($scrollPane.hasClass('fix'))
+				$scrollPane.removeClass('fix')
+		}
 	}
 }
 
