@@ -445,12 +445,6 @@ header nav ul, header nav ul li {
     position: relative;
     width: 100%;
 }
-header nav ul li {
-    border-right: 1px solid rgb(176 176 176 / 20%);
-}
-header nav ul li:hover:last-child {
-    border-right: 1px solid #359EFF;
-}
 header nav a {
     color: #6C6E74;
     font-weight: 700;
