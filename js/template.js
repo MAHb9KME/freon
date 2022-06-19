@@ -25,7 +25,7 @@ function tpaneScroll()
 	if($(window).width() > 960)
 	{
 		if($scrollTop > h)
-		{
+		{ 
 			if(!$scrollPane.hasClass('fix'))
 				$scrollPane.addClass('fix')
 		}
